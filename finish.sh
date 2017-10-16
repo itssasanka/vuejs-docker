@@ -1,3 +1,4 @@
+set -e
 project_dir=$(find $PWD -maxdepth 1 -mindepth 1 -type d -not -name ".*")
 parent_dir="$(dirname "$project_dir")"
 

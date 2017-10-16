@@ -16,4 +16,4 @@ install:
 		-v $(PWD):/src \
 		vue_image npm install
 finish:
-  sh finish.sh
+	sh finish.sh
