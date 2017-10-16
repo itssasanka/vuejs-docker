@@ -11,4 +11,4 @@ A Docker wrapper for quickly creating VueJS apps and running them inside Docker 
 - run `make finish`
 - run `cd ..`. You have a new directory with your project name waiting there. 
 - `cd` into that directory and run `make install`
-- run `make server` to start your vuejs app. It's ready on port 5000.
+- run `make server` to start your vuejs app. It's ready on port 8080.
