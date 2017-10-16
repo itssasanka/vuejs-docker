@@ -9,6 +9,6 @@ then
 fi
 
 cp -t $project_dir Makefile Dockerfile
-cd .. & mv $project_dir .
-
+cd ..
+mv $project_dir .
 mv $parent_dir tmp/
