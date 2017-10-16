@@ -1,4 +1,4 @@
-CONTAINER := test
+CONTAINER := change_name
 
 image:
 	docker build -t vue_image .
@@ -14,4 +14,6 @@ server:
 install:
 	docker run -it --rm --name $(CONTAINER)-install \
 		-v $(PWD):/src \
-		vue_image npm install 
+		vue_image npm install
+finish:
+  sh finish.sh
